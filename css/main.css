@@ -170,8 +170,9 @@ body{
     margin-bottom: 10px;
 }
 .action-films{
-     width: 2100px;
+     width: 2120px;
     display: flex;
+    flex-wrap: wrap;
    
 }
 .fa-regular.fa-heart{
