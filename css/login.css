@@ -26,7 +26,7 @@ body {
     color: whitesmoke;
 
     width: 400px;
-    height: 350px;
+    height: 370px;
     border-radius: 6px;
     border-style: none;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
@@ -62,10 +62,11 @@ button {
     border-radius: 6px;
     padding: 10px;
     width: 95%;
-    cursor: pointer;
+   
 }
 button:hover{
-    background-color: #5e1212;;
+    background-color: #5e1212;; 
+    cursor: pointer;
 }
 
 input {
@@ -95,5 +96,8 @@ input {
 .link-color:hover{
     color: #5e1212;
     text-decoration: underline;
+}
+#error{
+    color: red;
 }
 

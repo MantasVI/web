@@ -1,7 +1,12 @@
 // ==================
 // HEARTS / FAVORITES
 // ==================
-let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+const username = localStorage.getItem('username');
+let favorites = JSON.parse(localStorage.getItem('favorites_' + username)) || [];
+
+if (username) {
+    document.getElementById('profile-name').innerText = username;
+}
 
 const hearts = document.querySelectorAll('.fa-heart');
 
@@ -31,7 +36,7 @@ hearts.forEach(function(heart) {
             });
         }
 
-        localStorage.setItem('favorites', JSON.stringify(favorites));
+        localStorage.setItem('favorites_' + username, JSON.stringify(favorites));
     });
 });
 
@@ -87,3 +92,6 @@ if (searchBar) {
         });
     });
 }
+
+
+

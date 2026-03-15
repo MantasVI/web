@@ -8,6 +8,8 @@ body{
     color: rgb(255, 255, 255);
     font-size: 20px;
     position: relative;
+    overflow-x: hidden;
+    margin:0;
 }
 
 /*SIDEBAR CSS */
@@ -62,7 +64,8 @@ body{
     margin-bottom: 60px;
     display: flex;
     align-items: center;
-    
+    font-size: 26px;
+   
 }
 .profile{
     display: inline-block;
@@ -234,18 +237,18 @@ body{
 }
 .footer{
     background-color: rgb(27,27,27,0.9);
-    height: 100px;
-    bottom: -9px;
-    left:292px;
+    padding:10px;
+    bottom: -10px;
+    left: 300px;
     right:0;
     display: flex;
     justify-content: space-between;
     position: absolute;
-    align-items: top;
-     
+    align-items: center;
+    
 }
 .block1{
-    font-size: 40px;
+    font-size: 20px;
     margin-top: 40px;
     margin-left: 40px;
 }
@@ -254,7 +257,7 @@ body{
     color: white;
     margin-top: 40px;
     margin-right: 50px;
-    font-size: 40px;
+    font-size: 20px;
     
 }
 .linkfoot{
@@ -273,7 +276,6 @@ body{
 
 
 /*MAIN PAGE - TEXT MOVIES AND OTHER FILMS ENDS */
-
 
 
 
