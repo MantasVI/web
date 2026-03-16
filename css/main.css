@@ -92,7 +92,7 @@ body{
 /*MAIN PAGE - SEARCHBAR AND NOTI */
 .main{
   margin-left: 350px;
-  width: 2100px;
+  width: calc(98%-350px);
   box-sizing: border-box;
   padding-bottom: 100px;
 }
@@ -124,18 +124,12 @@ body{
     cursor: pointer;
 }
 
-.noti{
-    cursor: pointer;
-}
-.noti:hover{
- color:  rgb(255, 244, 38);
-}
 
 /*MAIN PAGE - SEARCHBAR AND NOTI ENDS */
 /*MAIN PAGE - CATEGORY BLOCKS */
 .mid{
     margin-top: 50px;
-     width: 2100px;
+     width: 98%;
     display: block;
     position: relative; 
     
@@ -173,7 +167,7 @@ body{
     margin-bottom: 10px;
 }
 .action-films{
-     width: 2120px;
+     width: 100%;
     display: flex;
     flex-wrap: wrap;
    
