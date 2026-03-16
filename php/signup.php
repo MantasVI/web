@@ -65,11 +65,12 @@
                 <p class="sign-up-text">Sign Up</p>
             </div>
 
-           
+           <div class="error-box">
             <?php foreach($errors as $error): ?>
-                <p id="error"><?= $error ?></p>
+                <p id="error" class="error"><?= $error ?></p>
             <?php endforeach; ?>
-        
+            </div>
+            
             <form id="form" action="signup.php" method="POST">
                 <div class="emaildiv">
                     <p class="text">Email:</p>

@@ -34,7 +34,7 @@
             }
             else
             {
-                    array_push($errors,'email doesnt exist provided');
+                    array_push($errors,'acount doesnt exist ');
             }
     }
 
@@ -57,7 +57,7 @@
             </div>
 
             <?php foreach($errors as $error): ?>
-                <p id="error"><?= $error ?></p>
+                <p id="error" class="error"><?= $error ?></p>
             <?php endforeach; ?>
 
             <form id="form" action="login.php" method="POST">
