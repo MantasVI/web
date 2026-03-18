@@ -21,25 +21,30 @@
         {
                 array_push($errors,"no username");
         }
-        $query = "SELECT email,username FROM users WHERE email = '$email' or username = '$username' limit 1";
-        $result=mysqli_query($conn,$query);
-        $user = mysqli_fetch_assoc($result);
-        if($user['email']==$_POST['email'])
-        {
-            array_push($errors,'email exists');
-        }
 
-        if($user['username']==$_POST['username'])
-        {
-            array_push($errors,'username taken');
-        }
-    
-        if(empty($errors))
-        {
-            $query  = "INSERT INTO users (email, password, username) VALUES ('$email', '$password', '$username')";
-            $return=mysqli_query($conn,$query); 
-            header('location: login.php');
-        }
+        if(!empty($email) && !empty($password)&& !empty($username))
+            {
+                $query = "SELECT email,username FROM users WHERE email = '$email' or username = '$username' limit 1";
+                $result=mysqli_query($conn,$query);
+                $user = mysqli_fetch_assoc($result);
+                if($user['email']==$_POST['email'])
+                {
+                    array_push($errors,'email exists');
+                }
+
+                if($user['username']==$_POST['username'])
+                {
+                    array_push($errors,'username taken');
+                }
+            
+                if(empty($errors))
+                {
+                    $query  = "INSERT INTO users (email, password, username) VALUES ('$email', '$password', '$username')";
+                    $return=mysqli_query($conn,$query); 
+                    header('location: login.php');
+                }  
+            }
+            
          
 
         
