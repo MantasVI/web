@@ -1,5 +1,27 @@
 <?php
-include ('db.php');
+include ('addfavorite.php');
+
+$user_id = $_SESSION['id'];
+$query = "SELECT m.name,m.image FROM movies as m join favorites as  f on f.contentid=m.id WHERE f.user_id = '$user_id' and f.type = 'movie'";
+
+$result  = mysqli_query($conn, $query);
+$movies = [];
+
+
+while($row = mysqli_fetch_assoc($result)) {
+    $movies[] = ['name' => $row['name'], 'image' => $row['image']];
+}
+$series = [];
+$query = "SELECT s.name,s.image FROM series as s join favorites as  f on f.contentid=s.id WHERE f.user_id = '$user_id' and f.type = 'series'";
+$result  = mysqli_query($conn, $query);
+
+while($row = mysqli_fetch_assoc($result)) {
+    $series[] = ['name' => $row['name'], 'image' => $row['image']];
+}
+
+$favs = array_merge(
+    array_column($movies, 'name'),
+    array_column($series, 'name'));
 ?>
 <!DOCTYPE html>
 <html>
@@ -63,7 +85,7 @@ include ('db.php');
                 <p class="action-name">Favorite Movies</p>
             </div>
             <div class="title-action">Movies</div>
-            <div class="action-films" id="favorites-container">
+            <div class="action-films" id="movies-container">
                 <!-- JS fills this -->
             </div>
 
@@ -96,7 +118,11 @@ include ('db.php');
             </div>
         </div>
         <!--FOOTER ENDS-->
-
-        <script src="../js/main.js"></script>
+<script>
+    const movies  = <?php echo json_encode($movies); ?>;
+    const series  = <?php echo json_encode($series); ?>;
+    const userFavorites = <?php echo json_encode($favs); ?>;
+</script>
+        <script src="../js/test.js"></script>
     </body>
 </html>
