@@ -56,7 +56,7 @@ $favs = array_merge(
             </div>
             <hr class="line">
             <div class="account">
-                <img class="profile" src="../images/[CITYPNG.COM]White User Member Guest Icon PNG Image - 4000x4000.png">
+                <img class="profile" src="../images/Icon.png">
                 <div class="profile-name" id="profile-name"><?php echo $_SESSION['username']; ?></div>
             </div>
             <hr class="line">
@@ -81,7 +81,7 @@ $favs = array_merge(
 
             <!-- FAVORITE MOVIES -->
             <div class="mid">
-                <img class="action-picture" src="../images/AAAAQRC29H19twWKcTZ9Zpg4biJbGNaHF2GGIYNcLt4eZ6fvwugUJbuKxTjjMFPCS-y5P3ZePL57rupDtSkyUIJhv3P8leMJGMzszuG2CHNd65NwWPu5LeKxQkRNfNMHmxAwt7tmQZFk1VIrBd1aXr2AR5DM.jpg">
+                <img class="action-picture" src="../images/logo.jpg">
                 <p class="action-name">Favorite Movies</p>
             </div>
             <div class="title-action">Movies</div>
@@ -91,7 +91,7 @@ $favs = array_merge(
 
             <!-- FAVORITE SERIES -->
             <div class="mid">
-                <img class="action-picture" src="../images/AAAAQRC29H19twWKcTZ9Zpg4biJbGNaHF2GGIYNcLt4eZ6fvwugUJbuKxTjjMFPCS-y5P3ZePL57rupDtSkyUIJhv3P8leMJGMzszuG2CHNd65NwWPu5LeKxQkRNfNMHmxAwt7tmQZFk1VIrBd1aXr2AR5DM.jpg">
+                <img class="action-picture" src="../images/logo.jpg">
                 <p class="action-name">Favorite Series</p>
             </div>
             <div class="title-action">Series</div>

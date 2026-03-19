@@ -67,7 +67,7 @@ $favs = array_merge(
                 <hr class="line">
             
             <div class="account">
-                <img class="profile" src="../images/[CITYPNG.COM]White User Member Guest Icon PNG Image - 4000x4000.png">
+                <img class="profile" src="../images/Icon.png">
                <div class="profile-name" id="profile-name"><?php echo $_SESSION['username']; ?></div>
             </div>
              
@@ -82,61 +82,59 @@ $favs = array_merge(
                     <i style="color: black;" class="fa-solid fa-magnifying-glass"></i>
                     <input class="search-bar" placeholder="Type in something"> 
                 </div>
-                
             </div>
             
             <div class="mid">
-                <img class="action-picture" src="../images/AAAAQRC29H19twWKcTZ9Zpg4biJbGNaHF2GGIYNcLt4eZ6fvwugUJbuKxTjjMFPCS-y5P3ZePL57rupDtSkyUIJhv3P8leMJGMzszuG2CHNd65NwWPu5LeKxQkRNfNMHmxAwt7tmQZFk1VIrBd1aXr2AR5DM.jpg">
+                <img class="action-picture" src="../images/logo.jpg">
                 <p class="action-name">ANIMATION</p>
             </div>
 
             <div class="title-action">Series</div>
             <div class="action-films">
-                <div class="action-film-container" data-type="series" data-name="Arcane" data-id="1">
+                <div class="action-film-container" data-type="series"  data-name="Arcane" data-id="1">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/no-spoilers-new-season-2-image-without-text-fan-edit-v0-t0u718ort64d1.webp">
+                        <img class="action-film" src="../images/Arcane.jpg">
                         <p class="action-info">Arcane</p>
                 </div>
                 <div class="action-film-container" data-type="series" data-name="Gravity Falls" data-id="2">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/71i0Hf8F0RL._AC_UF894,1000_QL80_.jpg">
-                        <p class="action-info">Gravity falls</p>
+                        <img class="action-film" src="../images/Gravity_Falls.jpg">
+                        <p class="action-info">Gravity Falls</p>
                 </div>
                 <div class="action-film-container" data-type="series" data-name="Rick And Morty" data-id="3">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/official-poster-for-rick-and-morty-season-8-v0-aacokoimbzxe1.webp">
+                        <img class="action-film" src="../images/Rick_And_Morty.jpg">
                         <p class="action-info">Rick And Morty</p>
                 </div>
                 <div class="action-film-container" data-type="series" data-name="Invincible" data-id="4">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/2a6b1ef2-2080-49fe-90eb-8795020520b5.avif">
+                        <img class="action-film" src="../images/Invincable.jpg">
                         <p class="action-info">Invincible</p>
                 </div>
                 <div class="action-film-container" data-type="series" data-name="Spongebob Squarepants" data-id="5">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/81F7O+WC6+L.jpg">
+                        <img class="action-film" src="../images/Spongebob_Squarepants.jpg">
                         <p class="action-info">Spongebob Squarepants</p>
                 </div>
                  <div class="action-film-container" data-type="series" data-name="The Simpsons" data-id="6">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/s-l1200.jpg">
+                        <img class="action-film" src="../images/The_Simpsons.jpg">
                         <p class="action-info">The Simpsons </p>
                 </div>
-                 <div class="action-film-container" data-type="series" data-name="The Simpsons" data-id="7">
+                <div class="action-film-container" data-type="series" data-name="Avatar: The Last Airbender" data-id="7">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/s-l1200.jpg">
-                        <p class="action-info">The Simpsons </p>
+                        <img class="action-film" src="../images/Avatar_The_Last_Airbender.jpg">
+                        <p class="action-info">Avatar: The Last Airbender</p>
                 </div>
-                <div class="action-film-container" data-type="series" data-name="The Simpsons" data-id="8">
+                 <div class="action-film-container" data-type="series" data-name="Blue Eye Samurai" data-id="8">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/s-l1200.jpg">
-                        <p class="action-info">The Simpsons </p>
+                        <img class="action-film" src="../images/Blue_Eye_Samurai.jpg">
+                        <p class="action-info">Blue Eye Samurai</p>
                 </div>
-               
             </div>
 
             <div class="mid">
-                <img class="action-picture" src="../images/AAAAQRC29H19twWKcTZ9Zpg4biJbGNaHF2GGIYNcLt4eZ6fvwugUJbuKxTjjMFPCS-y5P3ZePL57rupDtSkyUIJhv3P8leMJGMzszuG2CHNd65NwWPu5LeKxQkRNfNMHmxAwt7tmQZFk1VIrBd1aXr2AR5DM.jpg">
+                <img class="action-picture" src="../images/logo.jpg">
                 <p class="action-name">DRAMA</p>
             </div>
             
@@ -144,48 +142,48 @@ $favs = array_merge(
             <div class="action-films">
                 <div class="action-film-container" data-type="series" data-name="Game Of Thrones" data-id="9">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/134181.jpg">
+                        <img class="action-film" src="../images/Game_Of_Thrones.jpg">
                         <p class="action-info">Game Of Thrones</p>
                 </div>
                 <div class="action-film-container" data-type="series" data-name="Breaking Bad" data-id="10">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/0005b42db36c874e6817abc329549e98.jpg">
+                        <img class="action-film" src="../images/Breaking_Bad.jpg">
                         <p class="action-info">Breaking Bad</p>
                 </div>
                 <div class="action-film-container" data-type="series" data-name="Peaky Blinders" data-id="11">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/e7cc6633-aeef-4de5-bc02-fedd435be653.sized-1000x1000.jpg">
+                        <img class="action-film" src="../images/Peaky_Blinders.jpg">
                         <p class="action-info">Peaky Blinders</p>
                 </div>
                 <div class="action-film-container" data-type="series" data-name="House of the Dragon" data-id="12">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/textless-rhaenyra-alicent-house-of-the-dragon-s2-2024-v0-77tpzxpnb32d1.webp">
+                        <img class="action-film" src="../images/House_Of_The_Dragon.jpg">
                         <p class="action-info">House of the Dragon</p>
                 </div>
                 <div class="action-film-container" data-type="series" data-name="A Knight Of The Seven Kingdoms" data-id="13">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/a-knight-of-the-seven-kingdoms-2026-textless-v0-tn7cimnorntf1.webp">
+                        <img class="action-film" src="../images/A_Knight_Of_The_Seven_Kingdoms.webp">
                         <p class="action-info">A Knight Of The Seven Kingdoms</p>
                 </div>
                  <div class="action-film-container" data-type="series" data-name="Better Call Saul" data-id="14">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/30269.jpg">
+                        <img class="action-film" src="../images/Better_Call_Saul.jpg">
                         <p class="action-info">Better Call Saul</p>
                 </div>
-                <div class="action-film-container" data-type="series" data-name="Better Call Saul" data-id="15">
+                <div class="action-film-container" data-type="series" data-name="Band of Brothers" data-id="15">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/30269.jpg">
-                        <p class="action-info">Better Call Saul</p>
+                        <img class="action-film" src="../images/Band_Of_Brothers.jpg">
+                        <p class="action-info">Band of Brothers</p>
                 </div>
-                <div class="action-film-container" data-type="series" data-name="Better Call Saul" data-id="16">
+                 <div class="action-film-container" data-type="series" data-name="The Wire" data-id="16">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/30269.jpg">
-                        <p class="action-info">Better Call Saul</p>
+                        <img class="action-film" src="../images/The_Wire.jpg">
+                        <p class="action-info">The Wire</p>
                 </div>
             </div>
 
             <div class="mid">
-                <img class="action-picture" src="../images/AAAAQRC29H19twWKcTZ9Zpg4biJbGNaHF2GGIYNcLt4eZ6fvwugUJbuKxTjjMFPCS-y5P3ZePL57rupDtSkyUIJhv3P8leMJGMzszuG2CHNd65NwWPu5LeKxQkRNfNMHmxAwt7tmQZFk1VIrBd1aXr2AR5DM.jpg">
+                <img class="action-picture" src="../images/logo.jpg">
                 <p class="action-name">Fantasy</p>
             </div>
             
@@ -193,48 +191,48 @@ $favs = array_merge(
             <div class="action-films">
                 <div class="action-film-container" data-type="series" data-name="Stranger Things" data-id="17">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/ct29rgvkyy8z.webp">
+                        <img class="action-film" src="../images/Stranger_Things.jpg">
                         <p class="action-info">Stranger Things</p>
                 </div>
                 <div class="action-film-container" data-type="series" data-name="Andor" data-id="18">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/MV5BNGI2MTJjMjUtMTJhOC00YTY2LTg1NjUtMTdmMjg4YTk2YjM5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg">
+                        <img class="action-film" src="../images/Andor.jpg">
                         <p class="action-info">Andor</p>
-                </div>
+                </div> 
                 <div class="action-film-container" data-type="series" data-name="The Witcher" data-id="19">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/G0zW589WMAAk6S8.jpg">
+                        <img class="action-film" src="../images/The_Witcher.jpg">
                         <p class="action-info">The Witcher</p>
                 </div>
-                <div class="action-film-container" data-type="series" data-name="Lord of the Rings Rings of Power" data-id="20">
+                <div class="action-film-container" data-type="series" data-name="Lord of the Rings: The Rings of Power" data-id="20">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/ficige9qzhr91.jpg">
+                        <img class="action-film" src="../images/Lord_Of_The_Rings_The_Rings_Of_Power.jpg">
                         <p class="action-info">Lord of the Rings: The Rings of Power</p>
                 </div>
                 <div class="action-film-container" data-type="series" data-name="Wednesday" data-id="21">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/712iUgQM16L._AC_UF894,1000_QL80_.jpg">
+                        <img class="action-film" src="../images/Wednesday.jpg">
                         <p class="action-info">Wednesday</p>
                 </div>
                  <div class="action-film-container" data-type="series" data-name="The Mandalorian" data-id="22">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/n3iunkhinbn51.jpg">
+                        <img class="action-film" src="../images/The_Mandalorian.jpg">
                         <p class="action-info">The Mandalorian</p>
                 </div>
-                <div class="action-film-container" data-type="series" data-name="The Mandalorian" data-id="23">
+                <div class="action-film-container" data-type="series" data-name="Lost" data-id="23">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/n3iunkhinbn51.jpg">
-                        <p class="action-info">The Mandalorian</p>
+                        <img class="action-film" src="../images/Lost.jpg">
+                        <p class="action-info">Lost</p>
                 </div>
-                <div class="action-film-container" data-type="series" data-name="The Mandalorian" data-id="24">
+                <div class="action-film-container" data-type="series" data-name="Loki" data-id="24">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/n3iunkhinbn51.jpg">
-                        <p class="action-info">The Mandalorian</p>
+                        <img class="action-film" src="../images/Loki.jpg">
+                        <p class="action-info">Loki</p>
                 </div>
             </div>
 
             <div class="mid">
-                <img class="action-picture" src="../images/AAAAQRC29H19twWKcTZ9Zpg4biJbGNaHF2GGIYNcLt4eZ6fvwugUJbuKxTjjMFPCS-y5P3ZePL57rupDtSkyUIJhv3P8leMJGMzszuG2CHNd65NwWPu5LeKxQkRNfNMHmxAwt7tmQZFk1VIrBd1aXr2AR5DM.jpg">
+                <img class="action-picture" src="../images/logo.jpg">
                 <p class="action-name">ANIME</p>
             </div>
             
@@ -242,43 +240,43 @@ $favs = array_merge(
             <div class="action-films">
                 <div class="action-film-container" data-type="series" data-name="Attack on Titan" data-id="25">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/d87abay-0e924e13-f7bd-4a9f-9334-3a228fdc6895.jpg">
+                        <img class="action-film" src="../images/Attack_On_Titan.jpg">
                         <p class="action-info">Attack on Titan</p>
                 </div>
-                <div class="action-film-container" data-type="series" data-name="Naruto" data-id="26">
+                <div class="action-film-container" data-type="series" data-name="Naruto: Shippuden" data-id="26">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/naruto-shippuden-face-off_u-l-q1tjkib0.jpg" >
-                        <p class="action-info">Naruto</p>
+                        <img class="action-film" src="../images/Naruto_Shippuden.jpg">
+                        <p class="action-info">Naruto: Shippuden</p>
                 </div>
                 <div class="action-film-container" data-type="series" data-name="One Piece" data-id="27">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/removed-the-text-from-the-new-netflix-one-piece-poster-to-v0-nscmmvm29cfa1.webp">
+                        <img class="action-film" src="../images/One_Piece.jpg">
                         <p class="action-info">One Piece</p>
                 </div>
                 <div class="action-film-container" data-type="series" data-name="Demon Slayer" data-id="28">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/17h1fbep66f71.webp">
+                        <img class="action-film" src="../images/Demon_Slayer.jpg">
                         <p class="action-info">Demon Slayer</p>
                 </div>
                 <div class="action-film-container" data-type="series" data-name="Dragonball Z" data-id="29">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/cxJJtt4.jpeg">
+                        <img class="action-film" src="../images/Dragonball_Z.jpg">
                         <p class="action-info">Dragonball Z</p>
                 </div>
                  <div class="action-film-container" data-type="series" data-name="Death Note" data-id="30">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/b9g0clbu44lz.png">
+                        <img class="action-film" src="../images/Death_Note.png">
                         <p class="action-info">Death Note</p>
                 </div>
-                 <div class="action-film-container" data-type="series" data-name="Death Note" data-id="31">
+                <div class="action-film-container" data-type="series" data-name="Chainsaw Man" data-id="31">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/b9g0clbu44lz.png">
-                        <p class="action-info">Death Note</p>
+                        <img class="action-film" src="../images/Chainsaw_Man.jpg">
+                        <p class="action-info">Chainsaw Man</p>
                 </div>
-                 <div class="action-film-container" data-type="series" data-name="Death Note" data-id="32">
+                 <div class="action-film-container" data-type="series" data-name="Vinland Saga" data-id="32">
                     <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/b9g0clbu44lz.png">
-                        <p class="action-info">Death Note</p>
+                        <img class="action-film" src="../images/Vinland_Saga.jpg">
+                        <p class="action-info">Vinland Saga</p>
                 </div>
             </div>
 
