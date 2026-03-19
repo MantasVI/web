@@ -58,8 +58,8 @@ function renderCards(list, container) {
 
 // ✅ only run on favorites page
 if(moviesContainer || seriesContainer) {
-    renderCards(userMovies, moviesContainer);
-    renderCards(userSeries, seriesContainer);
+    renderCards(movies, moviesContainer);
+    renderCards(series, seriesContainer);
 }
 
 // ==================
