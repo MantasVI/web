@@ -96,12 +96,12 @@ $favs = array_merge(
                  <!--2-->
             <div class="mid">
                 <img class="action-picture" src="../images/logo.jpg">
-                <p class="action-name">ACTION</p>
+                <p class="action-name" style="-webkit-text-stroke: 4px black;">ACTION</p>
             </div>
                  <!--2-->
 
                   <!--3-->
-            <div class="title-action">Movies</div>
+            <div class="title-action">Action Movies</div>
                <div class="action-films">
                 <div class="action-film-container" data-type="movie" data-name="Avengers Endgame" data-id="1">
                         <i class="fa-regular fa-heart"></i>
@@ -128,17 +128,17 @@ $favs = array_merge(
                         <img class="action-film" src="../images/Mad_Max_Fury_Road.jpg">
                         <p class="action-info">Mad Max Furry road</p>
                 </div>
-                 <div class="action-film-container" data-type="movie" data-name="John Wick Chapter 2" data-id="6">
+                <div class="action-film-container" data-type="movie" data-name="John Wick Chapter 2" data-id="6">
                         <i class="fa-regular fa-heart"></i>
                         <img class="action-film" src="../images/John_Wick_Chapter_2.jpg">
                         <p class="action-info">John Wick Chapter 2</p>
                 </div>
-                 <div class="action-film-container" data-type="movie" data-name="John Wick Chapter 4" data-id="7">
+                <div class="action-film-container" data-type="movie" data-name="John Wick Chapter 4" data-id="7">
                         <i class="fa-regular fa-heart"></i>
                         <img class="action-film" src="../images/John_Wick_Chapter_4.jpg">
                         <p class="action-info">John Wick Chapter 4</p>
                 </div>
-                   <div class="action-film-container" data-type="movie" data-name="The Matrix" data-id="8">
+                <div class="action-film-container" data-type="movie" data-name="The Matrix" data-id="8">
                         <i class="fa-regular fa-heart"></i>
                         <img class="action-film" src="../images/The_Matrix.jpg">
                         <p class="action-info">The Matrix</p>
@@ -150,10 +150,10 @@ $favs = array_merge(
                  
             <div class="mid">
                 <img class="action-picture" src="../images/logo.jpg">
-                <p class="action-name">FANTASY</p>
+                <p class="action-name" style="-webkit-text-stroke: 4px black;">FANTASY</p>
             </div>
             
-            <div class="title-action">Movies</div>
+            <div class="title-action">Fantasy Movies</div>
              <div class="action-films">
                 <div class="action-film-container" data-type="movie" data-name="Harry Potter Deathly Hallows Part 2" data-id="9">
                         <i class="fa-regular fa-heart"></i>
@@ -180,10 +180,10 @@ $favs = array_merge(
                         <img class="action-film" src="../images/Doctor_Strange_In_The_Multiverse_Of_Madness.jpg">
                         <p class="action-info">Doctor Strange in the Multiverse of Madness</p>
                 </div>
-                 <div class="action-film-container" data-type="movie" data-name="Black Panther" data-id="14">
+                <div class="action-film-container" data-type="movie" data-name="Black Panther" data-id="14">
                         <i class="fa-regular fa-heart"></i>
                         <img class="action-film" src="../images/Black_Panther.jpg">
-                        <p class="action-info">Black Patnher</p>
+                        <p class="action-info">Black Panther</p>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="The Green Mile" data-id="15">
                         <i class="fa-regular fa-heart"></i>
@@ -200,11 +200,11 @@ $favs = array_merge(
             
             <div class="mid">
                 <img class="action-picture" src="../images/logo.jpg">
-                <p class="action-name">HORROR</p>
+                <p class="action-name" style="-webkit-text-stroke: 4px black;">HORROR</p>
             </div>
 
 
-            <div class="title-action">Movies</div>
+            <div class="title-action">Horror Movies</div>
              <div class="action-films">
                 <div class="action-film-container" data-type="movie" data-name="Scream" data-id="17">
                         <i class="fa-regular fa-heart"></i>
@@ -231,7 +231,7 @@ $favs = array_merge(
                         <img class="action-film" src="../images/Five_Nights_At_Freddys_2.jpg">
                         <p class="action-info">Five Nights at Freddy's 2 </p>
                 </div>
-                 <div class="action-film-container" data-type="movie" data-name="Alien: Covenant" data-id="22">
+                <div class="action-film-container" data-type="movie" data-name="Alien: Covenant" data-id="22">
                         <i class="fa-regular fa-heart"></i>
                         <img class="action-film" src="../images/Alien_Covenant.jpg">
                         <p class="action-info">Alien: Covenant</p>
@@ -252,10 +252,10 @@ $favs = array_merge(
 
             <div class="mid">
                 <img class="action-picture" src="../images/logo.jpg">
-                <p class="action-name">COMEDY</p>
+                <p class="action-name" style="-webkit-text-stroke: 4px black;">COMEDY</p>
             </div>
             
-            <div class="title-action">Movies</div>
+            <div class="title-action">Comedy Movies</div>
             <div class="action-films">
                 <div class="action-film-container" data-type="movie" data-name="Home Alone" data-id="25">
                         <i class="fa-regular fa-heart"></i>
@@ -284,7 +284,7 @@ $favs = array_merge(
                 </div>
                  <div class="action-film-container" data-type="movie" data-name="Borat" data-id="30">
                         <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/borat.jpg">
+                        <img class="action-film" src="../images/Borat.jpg">
                         <p class="action-info">Borat</p>
                 </div>
                      <div class="action-film-container" data-type="movie" data-name="The Wolf of Wall Street" data-id="31">

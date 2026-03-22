@@ -86,10 +86,10 @@ $favs = array_merge(
             
             <div class="mid">
                 <img class="action-picture" src="../images/logo.jpg">
-                <p class="action-name">ANIMATION</p>
+                <p class="action-name" style="-webkit-text-stroke: 4px black;">ANIMATION</p>
             </div>
 
-            <div class="title-action">Series</div>
+            <div class="title-action">Animated Series</div>
             <div class="action-films">
                 <div class="action-film-container" data-type="series"  data-name="Arcane" data-id="1">
                     <i class="fa-regular fa-heart"></i>
@@ -116,7 +116,7 @@ $favs = array_merge(
                         <img class="action-film" src="../images/Spongebob_Squarepants.jpg">
                         <p class="action-info">Spongebob Squarepants</p>
                 </div>
-                 <div class="action-film-container" data-type="series" data-name="The Simpsons" data-id="6">
+                <div class="action-film-container" data-type="series" data-name="The Simpsons" data-id="6">
                     <i class="fa-regular fa-heart"></i>
                         <img class="action-film" src="../images/The_Simpsons.jpg">
                         <p class="action-info">The Simpsons </p>
@@ -126,7 +126,7 @@ $favs = array_merge(
                         <img class="action-film" src="../images/Avatar_The_Last_Airbender.jpg">
                         <p class="action-info">Avatar: The Last Airbender</p>
                 </div>
-                 <div class="action-film-container" data-type="series" data-name="Blue Eye Samurai" data-id="8">
+                <div class="action-film-container" data-type="series" data-name="Blue Eye Samurai" data-id="8">
                     <i class="fa-regular fa-heart"></i>
                         <img class="action-film" src="../images/Blue_Eye_Samurai.jpg">
                         <p class="action-info">Blue Eye Samurai</p>
@@ -135,10 +135,10 @@ $favs = array_merge(
 
             <div class="mid">
                 <img class="action-picture" src="../images/logo.jpg">
-                <p class="action-name">DRAMA</p>
+                <p class="action-name" style="-webkit-text-stroke: 4px black;">DRAMA</p>
             </div>
             
-            <div class="title-action">Series</div>
+            <div class="title-action">Drama Series</div>
             <div class="action-films">
                 <div class="action-film-container" data-type="series" data-name="Game Of Thrones" data-id="9">
                     <i class="fa-regular fa-heart"></i>
@@ -165,7 +165,7 @@ $favs = array_merge(
                         <img class="action-film" src="../images/A_Knight_Of_The_Seven_Kingdoms.webp">
                         <p class="action-info">A Knight Of The Seven Kingdoms</p>
                 </div>
-                 <div class="action-film-container" data-type="series" data-name="Better Call Saul" data-id="14">
+                <div class="action-film-container" data-type="series" data-name="Better Call Saul" data-id="14">
                     <i class="fa-regular fa-heart"></i>
                         <img class="action-film" src="../images/Better_Call_Saul.jpg">
                         <p class="action-info">Better Call Saul</p>
@@ -175,7 +175,7 @@ $favs = array_merge(
                         <img class="action-film" src="../images/Band_Of_Brothers.jpg">
                         <p class="action-info">Band of Brothers</p>
                 </div>
-                 <div class="action-film-container" data-type="series" data-name="The Wire" data-id="16">
+                <div class="action-film-container" data-type="series" data-name="The Wire" data-id="16">
                     <i class="fa-regular fa-heart"></i>
                         <img class="action-film" src="../images/The_Wire.jpg">
                         <p class="action-info">The Wire</p>
@@ -184,10 +184,10 @@ $favs = array_merge(
 
             <div class="mid">
                 <img class="action-picture" src="../images/logo.jpg">
-                <p class="action-name">Fantasy</p>
+                <p class="action-name" style="-webkit-text-stroke: 4px black;">FANTASY</p>
             </div>
             
-            <div class="title-action">Series</div>
+            <div class="title-action">Fantasy Series</div>
             <div class="action-films">
                 <div class="action-film-container" data-type="series" data-name="Stranger Things" data-id="17">
                     <i class="fa-regular fa-heart"></i>
@@ -214,7 +214,7 @@ $favs = array_merge(
                         <img class="action-film" src="../images/Wednesday.jpg">
                         <p class="action-info">Wednesday</p>
                 </div>
-                 <div class="action-film-container" data-type="series" data-name="The Mandalorian" data-id="22">
+                <div class="action-film-container" data-type="series" data-name="The Mandalorian" data-id="22">
                     <i class="fa-regular fa-heart"></i>
                         <img class="action-film" src="../images/The_Mandalorian.jpg">
                         <p class="action-info">The Mandalorian</p>
@@ -233,10 +233,10 @@ $favs = array_merge(
 
             <div class="mid">
                 <img class="action-picture" src="../images/logo.jpg">
-                <p class="action-name">ANIME</p>
+                <p class="action-name" style="-webkit-text-stroke: 4px black;">ANIME</p>
             </div>
             
-            <div class="title-action">Series</div>
+            <div class="title-action">Anime Series</div>
             <div class="action-films">
                 <div class="action-film-container" data-type="series" data-name="Attack on Titan" data-id="25">
                     <i class="fa-regular fa-heart"></i>
@@ -263,7 +263,7 @@ $favs = array_merge(
                         <img class="action-film" src="../images/Dragonball_Z.jpg">
                         <p class="action-info">Dragonball Z</p>
                 </div>
-                 <div class="action-film-container" data-type="series" data-name="Death Note" data-id="30">
+                <div class="action-film-container" data-type="series" data-name="Death Note" data-id="30">
                     <i class="fa-regular fa-heart"></i>
                         <img class="action-film" src="../images/Death_Note.png">
                         <p class="action-info">Death Note</p>
@@ -273,7 +273,7 @@ $favs = array_merge(
                         <img class="action-film" src="../images/Chainsaw_Man.jpg">
                         <p class="action-info">Chainsaw Man</p>
                 </div>
-                 <div class="action-film-container" data-type="series" data-name="Vinland Saga" data-id="32">
+                <div class="action-film-container" data-type="series" data-name="Vinland Saga" data-id="32">
                     <i class="fa-regular fa-heart"></i>
                         <img class="action-film" src="../images/Vinland_Saga.jpg">
                         <p class="action-info">Vinland Saga</p>

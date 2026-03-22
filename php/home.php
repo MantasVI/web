@@ -99,18 +99,17 @@ $favs = array_merge(
                  <!--2-->
             <div class="mid">
                 <img class="action-picture" src="../images/logo.jpg">
-                <p class="action-name">RECOMMENDED</p>
+                <p class="action-name" style="-webkit-text-stroke: 4px black;">RECOMMENDED</p>
             </div>
                  <!--2-->
 
                   <!--3-->
-            <div class="title-action">Movies</div>
-
+            <div class="title-action">Recommended Movies/Shows</div>
             <div class="action-films">
-                <div class="action-film-container" data-type="movie" data-name="Avengers Endgame" data-id="1">
+                <div class="action-film-container" data-type="movie" data-name="The Matrix" data-id="8">
                         <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/Avengers_Endgame.jpg">
-                        <p class="action-info">Avengers Endgame</p>
+                        <img class="action-film" src="../images/The_Matrix.jpg">
+                        <p class="action-info">The Matrix</p>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="The Dark Knight" data-id="2">
                         <i class="fa-regular fa-heart"></i>
@@ -122,72 +121,94 @@ $favs = array_merge(
                         <img class="action-film" src="../images/Spiderman_2.jpg">
                         <p class="action-info">Spiderman 2</p>
                 </div>
-                <div class="action-film-container" data-type="movie" data-name="Lord of the Rings" data-id="4">
+                <div class="action-film-container" data-type="movie" data-name="The Wolf of Wall Street" data-id="31">
                         <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/Lord_Of_The_Rings_The_Return_Of_The_King.jpg">
-                        <p class="action-info">Lord of the Rings: The Return of the King</p>
+                        <img class="action-film" src="../images/The_Wolf_Of_Wall_Steet.jpg">
+                        <p class="action-info">The Wolf of Wall Street</p>
                 </div>
-                <div class="action-film-container" data-type="movie" data-name="Mad Max Fury Road" data-id="5">
-                        <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/Mad_Max_Fury_Road.jpg">
-                        <p class="action-info">Mad Max Furry road</p>
+                <div class="action-film-container" data-type="series" data-name="Game Of Thrones" data-id="9">
+                    <i class="fa-regular fa-heart"></i>
+                        <img class="action-film" src="../images/Game_Of_Thrones.jpg">
+                        <p class="action-info">Game Of Thrones</p>
                 </div>
-                 <div class="action-film-container" data-type="movie" data-name="John Wick Chapter 2" data-id="6">
-                        <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/John_Wick_Chapter_2.jpg">
-                        <p class="action-info">John Wick Chapter 2</p>
+                <div class="action-film-container" data-type="series" data-name="Breaking Bad" data-id="10">
+                    <i class="fa-regular fa-heart"></i>
+                        <img class="action-film" src="../images/Breaking_Bad.jpg">
+                        <p class="action-info">Breaking Bad</p>
                 </div>
-                 <div class="action-film-container" data-type="movie" data-name="John Wick Chapter 4" data-id="7">
-                        <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/John_Wick_Chapter_4.jpg">
-                        <p class="action-info">John Wick Chapter 4</p>
+                <div class="action-film-container" data-type="series" data-name="Better Call Saul" data-id="14">
+                    <i class="fa-regular fa-heart"></i>
+                        <img class="action-film" src="../images/Better_Call_Saul.jpg">
+                        <p class="action-info">Better Call Saul</p>
                 </div>
-                   <div class="action-film-container" data-type="movie" data-name="The Matrix" data-id="8">
-                        <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/The_Matrix.jpg">
-                        <p class="action-info">The Matrix</p>
+                <div class="action-film-container" data-type="series" data-name="Attack on Titan" data-id="25">
+                    <i class="fa-regular fa-heart"></i>
+                        <img class="action-film" src="../images/Attack_On_Titan.jpg">
+                        <p class="action-info">Attack on Titan</p>
                 </div>
-                
             </div>
-                 <!--3-->
 
                  
             <div class="mid">
                 <img class="action-picture" src="../images/logo.jpg">
-                <p class="action-name">NEW RELEASES</p>
+                <p class="action-name" style="-webkit-text-stroke: 4px black;">NEW RELEASES</p>
             </div>
             
-            <div class="title-action">Movies</div>
+            <div class="title-action">Newly Released Movies/Series</div>
             <div class="action-films">
                 <div class="action-film-container" data-type="movie" data-name="Harry Potter Deathly Hallows Part 2" data-id="9">
                         <i class="fa-regular fa-heart"></i>
                         <img class="action-film" src="../images/Harry_Potter_And_The_Deathly_Hollows_Part_2.jpg">
                         <p class="action-info">Harry Potter and the Deathly Hollows Part 2</p>
                 </div>
-                <div class="action-film-container" data-type="movie" data-name="Doctor Strange" data-id="10">
+                <div class="action-film-container" data-type="movie" data-name="Doctor Strange Multiverse of Madness" data-id="13">
                         <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/Doctor_Strange.jpg">
-                        <p class="action-info">Doctor Strange</p>
+                        <img class="action-film" src="../images/Doctor_Strange_In_The_Multiverse_Of_Madness.jpg">
+                        <p class="action-info">Doctor Strange in the Multiverse of Madness</p>
+                </div>
+                <div class="action-film-container" data-type="movie" data-name="Five Nights at Freddy's 2" data-id="21">
+                        <i class="fa-regular fa-heart"></i>
+                        <img class="action-film" src="../images/Five_Nights_At_Freddys_2.jpg">
+                        <p class="action-info">Five Nights at Freddy's 2 </p>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="Avatar Fire and Ash" data-id="11">
                         <i class="fa-regular fa-heart"></i>
                         <img class="action-film" src="../images/Avatar_Fire_And_Ash.jpg">
                         <p class="action-info">Avatar: Fire and Ash</p>
                 </div>
-                <div class="action-film-container" data-type="movie" data-name="Avatar The Way of Water" data-id="12">
-                        <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/Avatar_The_Way_Of_Water.jpg">
-                        <p class="action-info">Avatar: The Way of Water</p>
+                <div class="action-film-container" data-type="series" data-name="The Mandalorian" data-id="22">
+                    <i class="fa-regular fa-heart"></i>
+                        <img class="action-film" src="../images/The_Mandalorian.jpg">
+                        <p class="action-info">The Mandalorian</p>
                 </div>
-                <div class="action-film-container" data-type="movie" data-name="Doctor Strange Multiverse of Madness" data-id="13">
-                        <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/Doctor_Strange_In_The_Multiverse_Of_Madness.jpg">
-                        <p class="action-info">Doctor Strange in the Multiverse of Madness</p>
+                <div class="action-film-container" data-type="series" data-name="A Knight Of The Seven Kingdoms" data-id="13">
+                    <i class="fa-regular fa-heart"></i>
+                        <img class="action-film" src="../images/A_Knight_Of_The_Seven_Kingdoms.webp">
+                        <p class="action-info">A Knight Of The Seven Kingdoms</p>
                 </div>
-                 <div class="action-film-container" data-type="movie" data-name="Black Panther" data-id="14">
+                <div class="action-film-container" data-type="series" data-name="Chainsaw Man" data-id="31">
+                    <i class="fa-regular fa-heart"></i>
+                        <img class="action-film" src="../images/Chainsaw_Man.jpg">
+                        <p class="action-info">Chainsaw Man</p>
+                </div>
+                <div class="action-film-container" data-type="series" data-name="Invincible" data-id="4">
+                    <i class="fa-regular fa-heart"></i>
+                        <img class="action-film" src="../images/Invincable.jpg">
+                        <p class="action-info">Invincible</p>
+                </div>
+            </div>
+
+            <div class="mid">
+                <img class="action-picture" src="../images/logo.jpg">
+                <p class="action-name" style="-webkit-text-stroke: 4px black;">TOP RATED IMDB</p>
+            </div>
+            
+            <div class="title-action">Top Rated Movies/Series On IMDB</div>
+             <div class="action-films">
+                <div class="action-film-container" data-type="movie" data-name="The Dark Knight" data-id="2">
                         <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/Black_Panther.jpg">
-                        <p class="action-info">Black Patnher</p>
+                        <img class="action-film" src="../images/The_Dark_Knight.jpg">
+                        <p class="action-info">The Dark Knight</p>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="The Green Mile" data-id="15">
                         <i class="fa-regular fa-heart"></i>
@@ -199,54 +220,30 @@ $favs = array_merge(
                         <img class="action-film" src="../images/Spirited_Away.jpg">
                         <p class="action-info">Spirited Away</p>
                 </div>
-            </div>
-
-            <div class="mid">
-                <img class="action-picture" src="../images/logo.jpg">
-                <p class="action-name">TOP RATED IMDB</p>
-            </div>
-            
-            <div class="title-action">Movies</div>
-             <div class="action-films">
-                <div class="action-film-container" data-type="movie" data-name="Scream" data-id="17">
-                        <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/Scream.jpg">
-                        <p class="action-info">Scream</p>
-                </div>
-                <div class="action-film-container" data-type="movie" data-name="The Shinning" data-id="18">
-                        <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/The_Shining.jpg">
-                        <p class="action-info">The Shinning</p>
-                </div>
-                <div class="action-film-container" data-type="movie" data-name="HALLOWEEN 2" data-id="19">
-                        <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/Halloween_2.jpg">
-                        <p class="action-info">HALLOWEEN 2</p>
-                </div>
-                <div class="action-film-container" data-type="movie" data-name="Five Nights At Freddy's" data-id="20">
-                        <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/Five_Nights_At_Freddys.jpg">
-                        <p class="action-info">Five Nights At Freddy's</p>
-                </div>
-                <div class="action-film-container" data-type="movie" data-name="Five Nights at Freddy's 2" data-id="21">
-                        <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/Five_Nights_At_Freddys_2.jpg">
-                        <p class="action-info">Five Nights at Freddy's 2 </p>
-                </div>
-                 <div class="action-film-container" data-type="movie" data-name="Alien: Covenant" data-id="22">
-                        <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/Alien_Covenant.jpg">
-                        <p class="action-info">Alien: Covenant</p>
-                </div>
                 <div class="action-film-container" data-type="movie" data-name="The Silence of the Lambs" data-id="23">
                         <i class="fa-regular fa-heart"></i>
                         <img class="action-film" src="../images/The_Silence_Of_The_Lambs.jpg">
                         <p class="action-info">The Silence of the Lambs</p>
                 </div>
-                <div class="action-film-container" data-type="movie" data-name="Jaws" data-id="24">
-                        <i class="fa-regular fa-heart"></i>
-                        <img class="action-film" src="../images/Jaws.jpg">
-                        <p class="action-info">Jaws</p>
+                <div class="action-film-container" data-type="series"  data-name="Arcane" data-id="1">
+                    <i class="fa-regular fa-heart"></i>
+                        <img class="action-film" src="../images/Arcane.jpg">
+                        <p class="action-info">Arcane</p>
+                </div>
+                <div class="action-film-container" data-type="series" data-name="Blue Eye Samurai" data-id="8">
+                    <i class="fa-regular fa-heart"></i>
+                        <img class="action-film" src="../images/Blue_Eye_Samurai.jpg">
+                        <p class="action-info">Blue Eye Samurai</p>
+                </div>
+                <div class="action-film-container" data-type="series" data-name="The Wire" data-id="16">
+                    <i class="fa-regular fa-heart"></i>
+                        <img class="action-film" src="../images/The_Wire.jpg">
+                        <p class="action-info">The Wire</p>
+                </div>
+                <div class="action-film-container" data-type="series" data-name="One Piece" data-id="27">
+                    <i class="fa-regular fa-heart"></i>
+                        <img class="action-film" src="../images/One_Piece.jpg">
+                        <p class="action-info">One Piece</p>
                 </div>
             </div>
 

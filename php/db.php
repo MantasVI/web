@@ -1,7 +1,7 @@
 <?php
    
    session_start();
-    $db_host = 'localhost';
+    $db_host = 'db';
     $db_user = "root";
     $db_pass = '';
     $db_name = "bbnfilmai";
