@@ -82,9 +82,9 @@ $favs = array_merge(
             <!-- FAVORITE MOVIES -->
             <div class="mid">
                 <img class="action-picture" src="../images/logo.jpg">
-                <p class="action-name">Favorite Movies</p>
+                <p class="action-name">FAVORITE MOVIES</p>
             </div>
-            <div class="title-action">Movies</div>
+            <div class="title-action">Favorite Movies</div>
             <div class="action-films" id="movies-container">
                 <!-- JS fills this -->
             </div>
@@ -92,9 +92,9 @@ $favs = array_merge(
             <!-- FAVORITE SERIES -->
             <div class="mid">
                 <img class="action-picture" src="../images/logo.jpg">
-                <p class="action-name">Favorite Series</p>
+                <p class="action-name">FAVORITE SERIES</p>
             </div>
-            <div class="title-action">Series</div>
+            <div class="title-action">Favorite Series</div>
             <div class="action-films" id="series-container">
                 <!-- JS fills this -->
             </div>

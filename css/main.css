@@ -143,6 +143,7 @@ body{
     position: relative;
 }
 .action-name{
+    -webkit-text-stroke: 3px black;
     color: #ffffff;
      text-shadow: 
         0 0 12px rgba(255, 255, 255, 0.4),
