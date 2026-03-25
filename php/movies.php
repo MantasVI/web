@@ -105,43 +105,51 @@ $favs = array_merge(
                <div class="action-films">
                 <div class="action-film-container" data-type="movie" data-name="Avengers Endgame" data-id="1">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=TcMBFSGVi1c&pp=ygUYQXZlbmdlcnMgRW5kZ2FtZSB0cmVpbGVy">
                         <img class="action-film" src="../images/Avengers_Endgame.jpg">
-                        <p class="action-info">Avengers Endgame</p>
+                        <p class="action-info">Avengers Endgame</p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="The Dark Knight" data-id="2">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=K83hME5OKws&pp=ygUbdGhlIGRhcmsgbj1rbmlnaHQgMiB0cmVpbGVy">
                         <img class="action-film" src="../images/The_Dark_Knight.jpg">
-                        <p class="action-info">The Dark Knight</p>
+                        <p class="action-info">The Dark Knight</p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="Spiderman 2" data-id="3">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=1s9Yln0YwCw&pp=ygUZc3BpZGVybWFuIG1vdmllIDIgdHJlaWxlcg%3D%3D">
                         <img class="action-film" src="../images/Spiderman_2.jpg">
-                        <p class="action-info">Spiderman 2</p>
+                        <p class="action-info">Spiderman 2</p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="Lord of the Rings" data-id="4">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=V75dMMIW2B4&pp=ygUZbG9yZCBvZiB0aGUgcmluZ3MgdHJlaWxlcg%3D%3D">
                         <img class="action-film" src="../images/Lord_Of_The_Rings_The_Return_Of_The_King.jpg">
-                        <p class="action-info">Lord of the Rings: The Return of the King</p>
+                        <p class="action-info">Lord of the Rings: The Return of the King</p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="Mad Max Fury Road" data-id="5">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=hEJnMQG9ev8&pp=ygUZbWFkIG1heCBmdXJ5IHJvYWQgdHJlaWxlctIHCQnFCgGHKiGM7w%3D%3D">
                         <img class="action-film" src="../images/Mad_Max_Fury_Road.jpg">
-                        <p class="action-info">Mad Max Furry road</p>
+                        <p class="action-info">Mad Max Furry road</p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="John Wick Chapter 2" data-id="6">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=XGk2EfbD_Ps&pp=ygUaamhvbiB3aWNoIGNocHRlciAyIHRyZWlsZXI%3D">
                         <img class="action-film" src="../images/John_Wick_Chapter_2.jpg">
-                        <p class="action-info">John Wick Chapter 2</p>
+                        <p class="action-info">John Wick Chapter 2</p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="John Wick Chapter 4" data-id="7">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=qEVUtrk8_B4&pp=ygUaamhvbiB3aWNoIGNocHRlciA0IHRyZWlsZXI%3D">
                         <img class="action-film" src="../images/John_Wick_Chapter_4.jpg">
-                        <p class="action-info">John Wick Chapter 4</p>
+                        <p class="action-info">John Wick Chapter 4</p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="The Matrix" data-id="8">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=vKQi3bBA1y8&pp=ygUSdGhlIG1hdHJpeCB0cmVpbGVy">
                         <img class="action-film" src="../images/The_Matrix.jpg">
-                        <p class="action-info">The Matrix</p>
+                        <p class="action-info">The Matrix</p><a>
                 </div>
             </div>
         
@@ -157,43 +165,51 @@ $favs = array_merge(
              <div class="action-films">
                 <div class="action-film-container" data-type="movie" data-name="Harry Potter Deathly Hallows Part 2" data-id="9">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=5NYt1qirBWg&pp=ygUpaGFycnkgcG90dGUgYW5kIGRlYWRseSBob2xsb3dzIMSNIHRyZWlsZXI%3D">
                         <img class="action-film" src="../images/Harry_Potter_And_The_Deathly_Hollows_Part_2.jpg">
-                        <p class="action-info">Harry Potter and the Deathly Hollows Part 2</p>
+                        <p class="action-info">Harry Potter and the Deathly Hollows Part 2</p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="Doctor Strange" data-id="10">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=h7gvFravm4A&pp=ygUWZG9jdG9yIHN0cmFuZ2UgdHJhaWxlcg%3D%3D">
                         <img class="action-film" src="../images/Doctor_Strange.jpg">
-                        <p class="action-info">Doctor Strange</p>
+                        <p class="action-info">Doctor Strange</p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="Avatar Fire and Ash" data-id="11">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=nb_fFj_0rq8&pp=ygUbYXZhdGFyIGZpcmUgYW5kIGFzaCB0cmVpbGVy">
                         <img class="action-film" src="../images/Avatar_Fire_And_Ash.jpg">
-                        <p class="action-info">Avatar: Fire and Ash</p>
+                        <p class="action-info">Avatar: Fire and Ash</p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="Avatar The Way of Water" data-id="12">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=d9MyW72ELq0&pp=ygUfYXZhdGFyIHRoZSB3YXkgb2Ygd2F0ZXIgdHJlaWxlcg%3D%3D">
                         <img class="action-film" src="../images/Avatar_The_Way_Of_Water.jpg">
-                        <p class="action-info">Avatar: The Way of Water</p>
+                        <p class="action-info">Avatar: The Way of Water</p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="Doctor Strange Multiverse of Madness" data-id="13">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=aWzlQ2N6qqg&pp=ygUsRG9jdG9yIFN0cmFuZ2UgTXVsdGl2ZXJzZSBvZiBNYWRuZXNzIHRyZWlsZXI%3D">
                         <img class="action-film" src="../images/Doctor_Strange_In_The_Multiverse_Of_Madness.jpg">
-                        <p class="action-info">Doctor Strange in the Multiverse of Madness</p>
+                        <p class="action-info">Doctor Strange in the Multiverse of Madness</p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="Black Panther" data-id="14">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=xjDjIWPwcPU&pp=ygUVYmxhY2sgcGFudGhlciB0cmVpbGVy0gcJCcUKAYcqIYzvw%3D%3D">
                         <img class="action-film" src="../images/Black_Panther.jpg">
-                        <p class="action-info">Black Panther</p>
+                        <p class="action-info">Black Panther</p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="The Green Mile" data-id="15">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=Ki4haFrqSrw&pp=ygUWdGhlIGdyZWVuIG1pbGUgdHJlaWxlcg%3D%3D">
                         <img class="action-film" src="../images/The_Green_Mile.jpg">
-                        <p class="action-info">The Green Mile</p>
+                        <p class="action-info">The Green Mile</p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="Spirited Away" data-id="16">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=ByXuk9QqQkk&pp=ygUZc3Bpcml0ZWQgYXdhaSB0cmVpbGVy">
                         <img class="action-film" src="../images/Spirited_Away.jpg">
-                        <p class="action-info">Spirited Away</p>
+                        <p class="action-info">Spirited Away</p><a>
                 </div>
             </div>
 
@@ -208,43 +224,51 @@ $favs = array_merge(
              <div class="action-films">
                 <div class="action-film-container" data-type="movie" data-name="Scream" data-id="17">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=U0LETmDvuXc&pp=ygUOYWNyZWFtIHRlcmllcmw%3D">
                         <img class="action-film" src="../images/Scream.jpg">
-                        <p class="action-info">Scream</p>
+                        <p class="action-info">Scream</p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="The Shinning" data-id="18">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=S014oGZiSdI&pp=ygUUdGhlIHNoaW5uaW5nIHRyZWlsZXI%3D">
                         <img class="action-film" src="../images/The_Shining.jpg">
-                        <p class="action-info">The Shinning</p>
+                        <p class="action-info">The Shinning</p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="HALLOWEEN 2" data-id="19">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=8uJt9QG9rj8&pp=ygUOaGFsbG93ZW4gMiB0cmVpbGVy">
                         <img class="action-film" src="../images/Halloween_2.jpg">
-                        <p class="action-info">HALLOWEEN 2</p>
+                        <p class="action-info">HALLOWEEN 2</p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="Five Nights At Freddy's" data-id="20">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=0VH9WCFV6XQ&pp=ygUSZm5hZiBtb3ZpZSB0cmVpbGVy">
                         <img class="action-film" src="../images/Five_Nights_At_Freddys.jpg">
-                        <p class="action-info">Five Nights At Freddy's</p>
+                        <p class="action-info">Five Nights At Freddy's</p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="Five Nights at Freddy's 2" data-id="21">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=dSDpoobO6yM&pp=ygUSZm5hZiBtb3ZpZSB0cmVpbGVy">
                         <img class="action-film" src="../images/Five_Nights_At_Freddys_2.jpg">
-                        <p class="action-info">Five Nights at Freddy's 2 </p>
+                        <p class="action-info">Five Nights at Freddy's 2 </p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="Alien: Covenant" data-id="22">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=svnAD0TApb8&pp=ygUWYWxpZW4gY292ZW5hbnQgdHJlaWxlcg%3D%3D">
                         <img class="action-film" src="../images/Alien_Covenant.jpg">
-                        <p class="action-info">Alien: Covenant</p>
+                        <p class="action-info">Alien: Covenant</p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="The Silence of the Lambs" data-id="23">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=6iB21hsprAQ&pp=ygUcc2lsZW5jZSBvZiB0aGUgbGFtYnMgdHJlaWxlcg%3D%3D">
                         <img class="action-film" src="../images/The_Silence_Of_The_Lambs.jpg">
-                        <p class="action-info">The Silence of the Lambs</p>
+                        <p class="action-info">The Silence of the Lambs</p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="Jaws" data-id="24">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=WKuZJjPSLXQ&pp=ygUMamF3cyB0cmVpbGVy">
                         <img class="action-film" src="../images/Jaws.jpg">
-                        <p class="action-info">Jaws</p>
+                        <p class="action-info">Jaws</p><a>
                 </div>
             </div>
 
@@ -259,43 +283,51 @@ $favs = array_merge(
             <div class="action-films">
                 <div class="action-film-container" data-type="movie" data-name="Home Alone" data-id="25">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=jEDaVHmw7r4&pp=ygUSaG9tZSBhbG9uZSB0cmVpbGVy">
                         <img class="action-film" src="../images/Home_Alone.jpg">
-                        <p class="action-info">Home Alone</p>
+                        <p class="action-info">Home Alone</p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="Dumb and Dumber" data-id="26">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=l13yPhimE3o&pp=ygUXZHVtYiBhbmQgZHVtbWVyIHRyZWlsZXI%3D">
                         <img class="action-film" src="../images/Dumb_And_Dumber.jpg">
-                        <p class="action-info">Dumb & Dumber</p>
+                        <p class="action-info">Dumb & Dumber</p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="The Hangover Part II" data-id="27">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=ohF5ZO_zOYU&pp=ygUPaGFuZ292ZXIgcGFydCAy">
                         <img class="action-film" src="../images/The_Hangover_Part_2.jpg">
-                        <p class="action-info">The Hangover Part II</p>
+                        <p class="action-info">The Hangover Part II</p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="Superbad" data-id="28">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=4eaZ_48ZYog&pp=ygURc3VwZXIgYmFkIHRyZWlsZXI%3D">
                         <img class="action-film" src="../images/Superbad.jpg">
-                        <p class="action-info">Superbad</p>
+                        <p class="action-info">Superbad</p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="Shaft" data-id="29">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=lD41XdWcmbY&pp=ygUMc2hhZnR0cmVpbGVy">
                         <img class="action-film" src="../images/Shaft.jpg">
-                        <p class="action-info">Shaft</p>
+                        <p class="action-info">Shaft</p><a>
                 </div>
                  <div class="action-film-container" data-type="movie" data-name="Borat" data-id="30">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=ZN-dGVbCjLI&pp=ygUNYm9yYXQgdHJlaWxlcg%3D%3D">
                         <img class="action-film" src="../images/Borat.jpg">
-                        <p class="action-info">Borat</p>
+                        <p class="action-info">Borat</p><a>
                 </div>
                      <div class="action-film-container" data-type="movie" data-name="The Wolf of Wall Street" data-id="31">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=iszwuX1AK6A&pp=ygUUd29sZiBvZiB3YWxsIHN0cmVldCA%3D">
                         <img class="action-film" src="../images/The_Wolf_Of_Wall_Steet.jpg">
-                        <p class="action-info">The Wolf of Wall Street</p>
+                        <p class="action-info">The Wolf of Wall Street</p><a>
                 </div>
                 <div class="action-film-container" data-type="movie" data-name="Shrek" data-id="32">
                         <i class="fa-regular fa-heart"></i>
+                        <a href="https://www.youtube.com/watch?v=CwXOrWvPBPk&pp=ygUNc2hyZWsgdHJlaWxlctIHCQnFCgGHKiGM7w%3D%3D">
                         <img class="action-film" src="../images/Shrek.jpg">
-                        <p class="action-info">Shrek</p>
+                        <p class="action-info">Shrek</p><a>
                 </div>
             </div>
             
