@@ -13,38 +13,13 @@
     </div>
     <div class="title-action">Animated Series</div>
     <div class="action-films">
-        <div class="action-film-container" data-name="Arcane" data-id="47">
+        @foreach($series->where('genre', 'animation') as $serie)
+        <div class="action-film-container" data-name="{{$serie->title}}" data-id="{{$serie['id']}}">
             <i class="fa-regular fa-heart"></i>
-            <a href="https://www.youtube.com/watch?v=fXmAurh012s"><img class="action-film" src="/images/series/Arcane.jpg"><p class="action-info">Arcane</p></a>
+            <img class="action-film" src="/{{$serie['image_url']}}"><p class="action-info">{{$serie->title}}</p></a>
         </div>
-        <div class="action-film-container" data-name="Gravity Falls" data-id="59">
-            <i class="fa-regular fa-heart"></i>
-            <a href="https://www.youtube.com/watch?v=yfUDIPUETUg"><img class="action-film" src="/images/series/Gravity_Falls.jpg"><p class="action-info">Gravity Falls</p></a>
-        </div>
-        <div class="action-film-container" data-name="Rick And Morty" data-id="68">
-            <i class="fa-regular fa-heart"></i>
-            <a href="https://www.youtube.com/watch?v=ySYnTO7leqI"><img class="action-film" src="/images/series/Rick_And_Morty.jpg"><p class="action-info">Rick And Morty</p></a>
-        </div>
-        <div class="action-film-container" data-name="Invincible" data-id="61">
-            <i class="fa-regular fa-heart"></i>
-            <a href="https://www.youtube.com/watch?v=-bfAVpuko5o"><img class="action-film" src="/images/series/Invincable.jpg"><p class="action-info">Invincible</p></a>
-        </div>
-        <div class="action-film-container" data-name="Spongebob Squarepants" data-id="69">
-            <i class="fa-regular fa-heart"></i>
-            <a href="https://www.youtube.com/watch?v=P3-g4ERT5uk"><img class="action-film" src="/images/series/Spongebob_Squarepants.jpg"><p class="action-info">Spongebob Squarepants</p></a>
-        </div>
-        <div class="action-film-container" data-name="The Simpsons" data-id="72">
-            <i class="fa-regular fa-heart"></i>
-            <a href="https://www.youtube.com/watch?v=XPG0MqIcby8"><img class="action-film" src="/images/series/The_Simpsons.jpg"><p class="action-info">The Simpsons</p></a>
-        </div>
-        <div class="action-film-container" data-name="Avatar The Last Airbender" data-id="49">
-            <i class="fa-regular fa-heart"></i>
-            <a href="https://www.youtube.com/watch?v=ooVvH2IYz0w"><img class="action-film" src="/images/series/Avatar_The_Last_Airbender.jpg"><p class="action-info">Avatar: The Last Airbender</p></a>
-        </div>
-        <div class="action-film-container" data-name="Blue Eye Samurai" data-id="52">
-            <i class="fa-regular fa-heart"></i>
-            <a href="https://www.youtube.com/watch?v=3gLlS9m4kns"><img class="action-film" src="/images/series/Blue_Eye_Samurai.jpg"><p class="action-info">Blue Eye Samurai</p></a>
-        </div>
+        @endforeach
+        
     </div>
 
     <div class="mid">

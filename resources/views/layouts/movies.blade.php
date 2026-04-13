@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-        <meta movie="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+        <link rel="stylesheet" href="/css/main.css">
+        <title>BBN Filmai - Favorites</title>
+        
     </head>
         <body>
             <div class="page-wrapper">
@@ -41,6 +44,13 @@
                             <i class="fa-solid fa-face-smile"></i>
                                 Favorites</a>
                             </div>
+                            @if(Auth::user()->role === 'admin')
+                            <div class="nav">
+                                <a class="link" href="/admin">
+                                    <i class="fa-solid fa-gear"></i> Admin Panel
+                                </a>
+                            </div>
+                        @endif
                         </div>
 
                         <hr class="line">
