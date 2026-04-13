@@ -14,9 +14,10 @@ class DatabaseSeeder extends Seeder
      * Seed the application's database.
      */
     public function run(): void
-    {
-        // User::factory(10)->create();
-
+    { 
+        \Log::info('Seeded 10,000 users into the database.');
+        User::factory(10000)->create();
+       
          $this->call([ContentSeeder::class,]);
     }
 }
