@@ -17,9 +17,9 @@
                 <p class="log-in-text">Log in</p>
             </div>
 
-            <?php foreach($errors as $error): ?>
-                <p id="error" class="error"><?= $error ?></p>
-            <?php endforeach; ?>
+            @foreach($errors->all() as $error)
+                <p  class="error">{{ $error }}</p>
+            @endforeach
 
             <form id="form" action="/login" method="POST">
               @csrf

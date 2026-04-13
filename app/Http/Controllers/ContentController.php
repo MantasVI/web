@@ -12,16 +12,19 @@ class ContentController extends Controller
 {
     public function home()
     {
+        \Log::info('User logged in homepage: ' . Auth::user()->email . " with username: " . Auth::user()->username);
         $userFavorites = Favorite::where('user_id', Auth::id())->pluck('content_id')->toArray();
     return view('home', ['userFavorites' => $userFavorites]);
     }
     public function movies()
     {
+          \Log::info('User logged in movies: ' . Auth::user()->email . " with username: " . Auth::user()->username);
       $userFavorites = Favorite::where('user_id', Auth::id())->pluck('content_id')->toArray();
     return view('movies', ['userFavorites' => $userFavorites]);
     }
      public function series()
     {
+          \Log::info('User logged in series: ' . Auth::user()->email . " with username: " . Auth::user()->username);
         $userFavorites = Favorite::where('user_id', Auth::id())->pluck('content_id')->toArray();
     return view('series', ['userFavorites' => $userFavorites]);
     }

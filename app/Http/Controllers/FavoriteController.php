@@ -22,8 +22,10 @@ class FavoriteController extends Controller
 
         if($existing) {
             $existing->delete();
+                \Log::info('User removed favorite: ' . Auth::user()->email . " with username: " . Auth::user()->username . " content ID: " . $contentId);
             return response()->json(['status' => 'removed']);
         } else {
+             \Log::info('User added favorite: ' . Auth::user()->email . " with username: " . Auth::user()->username . " content ID: " . $contentId);
             Favorite::create([
                 'user_id' => $userId,
                 'content_id' => $contentId,
@@ -38,6 +40,11 @@ class FavoriteController extends Controller
     }
     public function index()
     {
+        //
+    }
+    public function favorites()
+    {
+          \Log::info('User logged in Favorite page: ' . Auth::user()->email . " with username: " . Auth::user()->username);
     $favorites = Favorite::where('user_id', Auth::id())
                         ->with('content')
                         ->get();

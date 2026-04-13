@@ -6,6 +6,10 @@ use App\Http\Controllers\ContentController;
 use App\Http\Controllers\FavoriteController;
 
 // Auth routes
+Route::get('/', function() {
+    return redirect('/signup');
+});
+
 Route::get('/signup', [AuthController::class, 'showSignup']);
 Route::post('/signup', [AuthController::class, 'signup']);
 Route::get('/login', [AuthController::class, 'showLogin']);
@@ -20,7 +24,7 @@ Route::get('/movies', [ContentController::class, 'movies']);
 Route::get('/series', [ContentController::class, 'series']);
 
 // Favorites routes
-Route::get('/favorites', [FavoriteController::class, 'index']);
+Route::get('/favorites', [FavoriteController::class, 'favorites']);
 Route::post('/favorites/add', [FavoriteController::class, 'add']);
 Route::delete('/favorites/remove', [FavoriteController::class, 'remove']);
 });

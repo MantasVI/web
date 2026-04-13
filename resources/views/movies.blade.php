@@ -15,7 +15,7 @@
     <div class="action-films">
         <div class="action-film-container" data-name="Avengers Endgame" data-id="4">
             <i class="fa-regular fa-heart"></i>
-            <a href="https://www.youtube.com/watch?v=TcMBFSGVi1c"><img class="action-film" src="/images/movies/Avengers_Endgame.jpg"><p class="action-info">Avengers Endgame</p></a>
+            <a href="https://www.youtube.com/watch?v=TcMBFSGVi1c" target="_blank"><img class="action-film" src="/images/movies/Avengers_Endgame.jpg"><p class="action-info">Avengers Endgame</p></a>
         </div>
         <div class="action-film-container" data-name="The Dark Knight" data-id="36">
             <i class="fa-regular fa-heart"></i>

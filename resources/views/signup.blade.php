@@ -19,9 +19,9 @@
             </div>
 
            <div class="error-box">
-            <?php foreach($errors as $error): ?>
-                <p id="error" class="error"><?= $error ?></p>
-            <?php endforeach; ?>
+            @foreach($errors->all() as $error)
+                <p class="error">{{ $error }}</p>
+            @endforeach
             </div>
             
             <form id="form" action="/signup" method="POST">
