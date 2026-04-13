@@ -42,6 +42,10 @@
                 </select>
             </div>
             <div class="mb-3">
+                <label class="text-white">Genre</label>
+                <input type="text" name="genre" class="form-control" value="{{ old('genre') }}">
+            </div>
+            <div class="mb-3">
                 <label class="text-white">Image URL</label>
                 <input type="text" name="image_url" class="form-control" value="{{ old('image_url') }}">
             </div>

@@ -39,6 +39,7 @@
                     <th>Title</th>
                     <th>Type</th>
                     <th>Image URL</th>
+                    <th>Genre</th>
                     <th>Actions</th>
                 </tr>
             </thead>
@@ -49,6 +50,7 @@
                     <td>{{ $content->title }}</td>
                     <td>{{ $content->type }}</td>
                     <td>{{ $content->image_url }}</td>
+                    <td>{{ $content->genre }}</td>
                     <td>
                         <a href="/admin/edit/{{ $content->id }}" class="btn btn-warning btn-sm">Edit</a>
                         <form action="/admin/delete/{{ $content->id }}" method="POST" style="display:inline">

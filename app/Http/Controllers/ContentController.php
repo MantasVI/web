@@ -53,7 +53,7 @@ class ContentController extends Controller
 
     public function adminCreate()
     {
-    return view('admin');
+    return view('admin.create');
     }
     
     // Save new content
@@ -63,12 +63,14 @@ class ContentController extends Controller
         'title' => 'unique:contents|required|string|max:255',
         'type' => 'required|in:movie,series',
         'image_url' => 'required|string',
+        'genre' => 'required|string|max:40',
     ]);
 
     Content::addContent([
         'title' => $request->title,
         'type' => $request->type,
         'image_url' => $request->image_url,
+        'genre' => $request->genre,
     ]);
 
     \Log::info('ContentController@adminStore - Admin added content: ' . $request->title);
@@ -93,12 +95,14 @@ class ContentController extends Controller
         'title' => 'required|string|max:255',
         'type' => 'required|in:movie,series',
         'image_url' => 'required|string',
+        'genre' => 'required|string|max:40',
     ]);
 
     Content::updateContent($id, [
         'title' => $request->title,
         'type' => $request->type,
         'image_url' => $request->image_url,
+        'genre' => $request->genre,
     ]);
 
     \Log::info('ContentController@adminUpdate - Admin updated content: ' . $request->title);
