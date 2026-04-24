@@ -173,21 +173,21 @@ body{
     flex-wrap: wrap;
    
 }
-.fa-regular.fa-heart{
-    color: white;
+.fa-regular.fa-heart {
+    color: rgb(255, 255, 64);
     position: absolute;
-   font-size: 30px; /* cia sitiems ne width/height o tik font size padidina juos */
-    top: 10px;
-    right: 10px;
-}
-.fa-solid.fa-heart{
-   color: red;
-     position: absolute;
-   font-size: 30px; /* cia sitiems ne width/height o tik font size padidina juos */
+    font-size: 30px;
     top: 10px;
     right: 10px;
 }
 
+.fa-solid.fa-heart {
+    color: red;
+    position: absolute;
+    font-size: 30px;
+    top: 10px;
+    right: 10px;
+}
 .action-film-container{
 
      cursor: pointer;
