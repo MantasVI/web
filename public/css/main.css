@@ -174,12 +174,13 @@ body{
    
 }
 .fa-regular.fa-heart {
-    color: white;
+    color: rgb(255, 255, 64);
     position: absolute;
     font-size: 30px;
     top: 10px;
     right: 10px;
 }
+
 .fa-solid.fa-heart {
     color: red;
     position: absolute;
