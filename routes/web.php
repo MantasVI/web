@@ -16,7 +16,8 @@ Route::get('/login', [AuthController::class, 'showLogin']);
 Route::post('/login', [AuthController::class, 'login']);
 Route::get('/logout', [AuthController::class, 'logout']);
 
-// Content routes
+// Content routes\
+
 Route::middleware('auth')->group(function (){
     
 Route::get('/home', [ContentController::class, 'home']);
