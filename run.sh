@@ -27,12 +27,17 @@ else
     echo "Docker Compose already installed"
 fi
 
-# Clone your project
 if [ ! -d ~/web ]; then
     git clone https://github.com/MantasVI/web.git
 else
     echo "web folder already exists, skipping"
 fi
+
+# Then clone docker examples and copy docker/ folder
+if [ ! -d ~/laravel-docker-examples ]; then
+    git clone https://github.com/dockersamples/laravel-docker-examples.git ~/laravel-docker-examples
+fi
+cp -r ~/laravel-docker-examples/docker ~/web/
 
 # Set up Laravel .env automatically
 cd ~/web
