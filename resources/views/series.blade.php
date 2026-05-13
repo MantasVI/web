@@ -1,4 +1,4 @@
-@extends('layouts.series')
+@extends('layouts.seriesLayout')
 @section('series')
     <div class="top">
         <div class="search-bar-container">

@@ -1,9 +1,5 @@
-document.addEventListener('DOMContentLoaded', function() {
 
-    // ==================
-    // HEARTS / FAVORITES
-    // ==================
-    document.querySelectorAll('.action-film-container').forEach(function(container) {
+    document.querySelectorAll('.action-film-container').forEach((container) => {
         const heart     = container.querySelector('.fa-heart');
         const contentId = container.dataset.id;
         const type      = container.dataset.type;
@@ -14,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
             heart.classList.add('fa-solid');
         }
 
-        heart.addEventListener('click', function() {
+        heart.addEventListener('click', () => {
             fetch('/favorites/add', {
                 method: 'POST',
                 headers: { 
@@ -40,21 +36,18 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // ==================
-    // SEARCH BAR
-    // ==================
+   
     const searchBar = document.querySelector('.search-bar');
     const allCards  = document.querySelectorAll('.action-film-container');
 
     if(searchBar) {
-        searchBar.addEventListener('input', function() {
+        searchBar.addEventListener('input', () => {
             const searchText = searchBar.value.toLowerCase();
 
-            allCards.forEach(function(card) {
+            allCards.forEach((card) => {
                 const movieName = card.querySelector('.action-info').textContent.toLowerCase();
                 card.style.display = movieName.includes(searchText) ? 'block' : 'none';
             });
         });
     }
 
-});

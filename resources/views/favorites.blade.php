@@ -1,4 +1,4 @@
-@extends('layouts.favorites')
+@extends('layouts.favoritesLayout')
 @section('favorites')
 
     <div class="top">

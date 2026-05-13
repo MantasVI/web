@@ -13,12 +13,12 @@ class ContentController extends Controller
     public function home()
     {
         \Log::info('User logged in homepage: ' . Auth::user()->email . " with username: " . Auth::user()->username);
-        $randomMovies1 = Content::getRandomMovies(4);
-        $randomMovies2 = Content::getRandomMovies(4);
-        $randomMovies3 = Content::getRandomMovies(4);
-        $randomSeries1 = Content::getRandomSeries(4);
-        $randomSeries2 = Content::getRandomSeries(4);
-        $randomSeries3 = Content::getRandomSeries(4);
+        $randomMovies1 = Content::getRandomMovies();
+        $randomMovies2 = Content::getRandomMovies();
+        $randomMovies3 = Content::getRandomMovies();
+        $randomSeries1 = Content::getRandomSeries();
+        $randomSeries2 = Content::getRandomSeries();
+        $randomSeries3 = Content::getRandomSeries();
         $userFavorites = Favorite::where('user_id', Auth::id())->pluck('content_id')->toArray();
     return view('home', ['randomMovies1' => $randomMovies1, 'randomMovies2' => $randomMovies2, 'randomMovies3' => $randomMovies3, 'randomSeries1' => $randomSeries1, 'randomSeries2' => $randomSeries2, 'randomSeries3' => $randomSeries3, 'userFavorites' => $userFavorites]);
     }
@@ -39,6 +39,7 @@ class ContentController extends Controller
 
     public function adminRedirect()
     {
+        \Log::info('admin redirected back to homepage: ' . Auth::user()->email . " with username: " . Auth::user()->username);
         return redirect('/home');
     }
 
@@ -53,6 +54,7 @@ class ContentController extends Controller
 
     public function adminCreate()
     {
+    \Log::info('contentController@adminCreate - Admin accessed create content page: ' . Auth::user()->email . " with username: " . Auth::user()->username);
     return view('admin.create');
     }
     
@@ -84,6 +86,7 @@ class ContentController extends Controller
    public function adminEdit($id)
     {
     $content = Content::getId($id);
+    \Log::info('ContentController@adminEdit - admin edited content: ' . $content->title);
     return view('admin.edit', ['content' => $content]);
     }
 

@@ -1,4 +1,4 @@
-@extends('layouts.home')
+@extends('layouts.homeLayout')
 @section('home')
     <div class="top">
         <div class="search-bar-container">

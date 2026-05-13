@@ -1,58 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/main.css">
-    <title>Edit Content</title>
-</head>
-<body>
-    <nav class="sidebar">
-        <hr class="line">
-        <div class="title">BBN Admin</div>
-        <hr class="line">
-        <div class="sidebar-buttons">
-            <div class="nav"><a class="link" href="/admin">Content List</a></div>
-            <div class="nav"><a class="link" href="/admin/create">Add New</a></div>
-        </div>
-        <hr class="line">
-        <div class="log-out"><a class="link" href="/logout">Log Out</a></div>
-        <hr class="line">
-    </nav>
+@extends('layouts.editLayout')
+@section('edit')
 
-    <div class="main">
-        <h2 class="text-white mt-4">Edit Content</h2>
+<h2 class="admintext">Edit Content</h2>
 
         @foreach($errors->all() as $error)
-            <p class="text-danger">{{ $error }}</p>
+            <p class="error">{{ $error }}</p>
         @endforeach
 
         <form action="/admin/update/{{ $content->id }}" method="POST">
             @csrf
             @method('PUT')
-            <div class="mb-3">
-                <label class="text-white">Title</label>
-                <input type="text" name="title" class="form-control" value="{{ old('title', $content->title) }}">
+            <div class="titlediv">
+                <label class="titleadmin">Title</label>
+                <input type="text" name="title" class="titleinput" value="{{ old('title', $content->title) }}">
             </div>
-            <div class="mb-3">
-                <label class="text-white">Type</label>
-                <select name="type" class="form-control">
-                    <option value="movie" {{ $content->type === 'movie' ? 'selected' : '' }}>Movie</option>
-                    <option value="series" {{ $content->type === 'series' ? 'selected' : '' }}>Series</option>
+            <div class="titlediv">
+                <label class="titleadmin">Type</label>
+                <select name="type" class="titleselect">
+                    <option value="movie" >Movie</option>
+                    <option value="series" >Series</option>
                 </select>
             </div>
-            <div class="mb-3">
-                <label class="text-white">Genre</label>
-                <input type="text" name="genre" class="form-control" value="{{ old('genre', $content->genre) }}">
+            <div class="titlediv">
+                  <label class="titleadmin">Genre</label>
+                <select name="genre" class="titleselect">
+                    <option value="action">Action</option>
+                    <option value="comedy">Comedy</option>
+                    <option value="drama">Drama</option>
+                    <option value="horror">Horror</option>
+                    <option value="anime">Anime</option>
+                    <option value="animation">Animation</option>
+                    <option value="fantasy">Fantasy</option>
+                </select>
             </div>
-            <div class="mb-3">
-                <label class="text-white">Image URL</label>
-                <input type="text" name="image_url" class="form-control" value="{{ old('image_url', $content->image_url) }}">
+            <div class="titlediv">
+                <label class="titleadmin">Image URL</label>
+                <input type="text" name="image_url" class="titleinput" value="{{ old('image_url', $content->image_url) }}">
             </div>
-            <button type="submit" class="btn btn-warning">Update Content</button>
-            <a href="/admin" class="btn btn-secondary">Cancel</a>
+            <button type="submit" class="adminbutton">Update Content</button>
+            <a href="/admin" class="link">Cancel</a>
         </form>
-    </div>
-</body>
-</html>
+@endsection
