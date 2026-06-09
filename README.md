@@ -82,22 +82,6 @@ chmod +x run.sh
 ./run.sh
 ```
 
-### Containerized Services
-
-* Laravel Application
-* MySQL Database
-* Redis Cache
-* Composer Workspace Container
-
-### Benefits
-
-* Consistent development environment
-* Fast onboarding for new developers
-* Automated infrastructure provisioning
-* Simplified deployment workflow
-
-```
-```
 
 
 ## Available Routes
