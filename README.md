@@ -1,51 +1,54 @@
+# League of Legends Information Portal
 
-Movie & Series Catalog Web Application
-Overview
+## Overview
 
-A web application built with Laravel 12 that allows users to browse movies and TV series, create accounts, manage favorites, and provides administrators with content management capabilities.
+A Laravel-based web application that provides League of Legends players with access to champion information, skins, items, and runes using Riot Games' Data Dragon API. The platform includes user authentication and dynamic content retrieval from external APIs.
 
-Features
-User Features
-User registration and login
-Secure authentication system
-Browse movies and TV series
-Personalized favorites list
-Home page with randomly recommended content
-Responsive content catalog
-Admin Features
-Admin-only dashboard
-Create new content entries
-Edit existing content
-Delete content
-Content management system with role-based access control
-Content Management
-Movie catalog
-TV series catalog
-Genre categorization
-Image support for content items
-Random content recommendations
-Technologies Used
-Backend: Laravel 12
-Language: PHP 8.2+
-Database: MySQL / SQLite
-Frontend: Blade Templates
-Authentication: Laravel Auth
-Containerization: Docker Compose
-Project Structure
-app/
-├── Http/
-│   ├── Controllers/
-│   └── Middleware/
-├── Models/
-├── resources/
-├── routes/
-└── database/
-Installation
-Prerequisites
-PHP 8.2+
-Composer
-Node.js & NPM
-Database (MySQL or SQLite)
+## Features
+
+### User Features
+
+* User registration and login
+* Secure authentication system
+* Browse League of Legends champions
+* View champion details and statistics
+* Explore champion skins
+* Browse in-game items
+* View rune information and descriptions
+
+### API Integration
+
+* Real-time data retrieval from Riot Data Dragon API
+* Champion data synchronization
+* Item database integration
+* Rune information retrieval
+* Dynamic skin catalog generation
+
+### Content Sections
+
+* Champions
+* Champion Details
+* Skins
+* Items
+* Runes
+
+## Technologies Used
+
+* Backend: Laravel 12
+* Language: PHP 8.2+
+* Frontend: Blade Templates
+* Authentication: Laravel Auth
+* API Integration: Riot Games Data Dragon API
+* Database: MySQL / SQLite
+
+## Installation
+
+### Prerequisites
+
+* PHP 8.2+
+* Composer
+* Node.js & NPM
+* MySQL or SQLite
 
 Docker Deployment
 
@@ -63,37 +66,47 @@ Quick Start
 chmod +x run.sh
 ./run.sh
 
-Available Routes
-Authentication
-/signup
-/login
-/logout
-User Pages
-/home
-/movies
-/series
-/favorites
-Admin Pages
-/admin
-/admin/create
-/admin/edit/{id}
-Database Models
-User
-Username
-Email
-Password
-Role
-Content
-Title
-Image URL
-Type (Movie/Series)
-Genre
-Favorite
-User ID
-Content ID
-Security Features
-Authentication middleware
-Admin authorization middleware
-Form validation
-Password hashing
-Protected routes
+## Available Routes
+
+### Authentication
+
+* /Sign
+* /Login
+* /Logout
+
+### League Content
+
+* /Champions
+* /Champion/{id}
+* /Skins
+* /Skin/{name}
+* /Items
+* /Runes
+* /Rune/{name}
+
+## Security Features
+
+* Password hashing
+* Form validation
+* Session-based authentication
+* CSRF protection
+* Secure login/logout workflow
+
+## Architecture
+
+The application follows Laravel's MVC architecture:
+
+* Controllers handle API communication and business logic
+* Models manage application data
+* Blade templates render dynamic views
+* Routes map user requests to controllers
+
+## External API
+
+The application integrates with Riot Games Data Dragon API to retrieve:
+
+* Champion information
+* Champion skins
+* Item data
+* Rune configurations
+
