@@ -1,8 +1,8 @@
-# League of Legends Information Portal
+# Movie & Series Catalog Web Application
 
 ## Overview
 
-A Laravel-based web application that provides League of Legends players with access to champion information, skins, items, and runes using Riot Games' Data Dragon API. The platform includes user authentication and dynamic content retrieval from external APIs.
+A web application built with Laravel 12 that allows users to browse movies and TV series, create accounts, manage favorites, and provides administrators with content management capabilities.
 
 ## Features
 
@@ -10,36 +10,48 @@ A Laravel-based web application that provides League of Legends players with acc
 
 * User registration and login
 * Secure authentication system
-* Browse League of Legends champions
-* View champion details and statistics
-* Explore champion skins
-* Browse in-game items
-* View rune information and descriptions
+* Browse movies and TV series
+* Personalized favorites list
+* Home page with randomly recommended content
+* Responsive content catalog
 
-### API Integration
+### Admin Features
 
-* Real-time data retrieval from Riot Data Dragon API
-* Champion data synchronization
-* Item database integration
-* Rune information retrieval
-* Dynamic skin catalog generation
+* Admin-only dashboard
+* Create new content entries
+* Edit existing content
+* Delete content
+* Content management system with role-based access control
 
-### Content Sections
+### Content Management
 
-* Champions
-* Champion Details
-* Skins
-* Items
-* Runes
+* Movie catalog
+* TV series catalog
+* Genre categorization
+* Image support for content items
+* Random content recommendations
 
 ## Technologies Used
 
-* Backend: Laravel 12
-* Language: PHP 8.2+
-* Frontend: Blade Templates
-* Authentication: Laravel Auth
-* API Integration: Riot Games Data Dragon API
-* Database: MySQL / SQLite
+* **Backend:** Laravel 12
+* **Language:** PHP 8.2+
+* **Database:** MySQL / SQLite
+* **Frontend:** Blade Templates
+* **Authentication:** Laravel Auth
+* **Containerization:** Docker Compose
+
+## Project Structure
+
+```text
+app/
+├── Http/
+│   ├── Controllers/
+│   └── Middleware/
+├── Models/
+├── resources/
+├── routes/
+└── database/
+```
 
 ## Installation
 
@@ -48,65 +60,104 @@ A Laravel-based web application that provides League of Legends players with acc
 * PHP 8.2+
 * Composer
 * Node.js & NPM
-* MySQL or SQLite
+* Database (MySQL or SQLite)
 
-Docker Deployment
+## Docker Deployment
 
-The project includes an automated deployment script (run.sh) that:
+The project includes an automated deployment script (`run.sh`) that:
 
-Installs Docker (if missing)
-Installs Docker Compose
-Clones the project repository
-Generates the Laravel .env configuration
-Starts application containers
-Installs Composer dependencies
-Runs database migrations
-Seeds initial data
-Quick Start
+1. Installs Docker (if missing)
+2. Installs Docker Compose
+3. Clones the project repository
+4. Generates the Laravel `.env` configuration
+5. Starts application containers
+6. Installs Composer dependencies
+7. Runs database migrations
+8. Seeds initial data
+
+### Quick Start
+
+```bash
 chmod +x run.sh
 ./run.sh
+```
+
+### Containerized Services
+
+* Laravel Application
+* MySQL Database
+* Redis Cache
+* Composer Workspace Container
+
+### Benefits
+
+* Consistent development environment
+* Fast onboarding for new developers
+* Automated infrastructure provisioning
+* Simplified deployment workflow
+
+```
+```
+
 
 ## Available Routes
 
 ### Authentication
 
-* /Sign
-* /Login
-* /Logout
+* `/signup`
+* `/login`
+* `/logout`
 
-### League Content
+### User Pages
 
-* /Champions
-* /Champion/{id}
-* /Skins
-* /Skin/{name}
-* /Items
-* /Runes
-* /Rune/{name}
+* `/home`
+* `/movies`
+* `/series`
+* `/favorites`
+
+### Admin Pages
+
+* `/admin`
+* `/admin/create`
+* `/admin/edit/{id}`
+
+## Database Models
+
+### User
+
+* Username
+* Email
+* Password
+* Role
+
+### Content
+
+* Title
+* Image URL
+* Type (Movie/Series)
+* Genre
+
+### Favorite
+
+* User ID
+* Content ID
 
 ## Security Features
 
-* Password hashing
+* Authentication middleware
+* Admin authorization middleware
 * Form validation
-* Session-based authentication
-* CSRF protection
-* Secure login/logout workflow
+* Password hashing
+* Protected routes
 
-## Architecture
+## Future Improvements
 
-The application follows Laravel's MVC architecture:
+* Search functionality
+* Advanced filtering
+* Ratings and reviews
+* User profiles
+* API integration for movie data
+* Pagination
+* Email verification
 
-* Controllers handle API communication and business logic
-* Models manage application data
-* Blade templates render dynamic views
-* Routes map user requests to controllers
-
-## External API
-
-The application integrates with Riot Games Data Dragon API to retrieve:
-
-* Champion information
-* Champion skins
-* Item data
-* Rune configurations
 
